@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying the App'
             }
         }
+stage('change') {
+            steps {
+                echo 'change the App'
+            }
+        }
     }
 }
