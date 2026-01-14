@@ -19,7 +19,7 @@ pipeline {
         }
 stage('change') {
             steps {
-                echo 'change the App'
+                echo 'changing the App'
             }
         }
     }
